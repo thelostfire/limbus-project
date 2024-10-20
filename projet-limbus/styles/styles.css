@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "ExcelsiorSans";
+    src: url(../fonts/ExcelsiorSans.ttf);
+}
+
+@font-face {
+    font-family: "LiberationSans";
+    src: url(../fonts/LiberationSans.ttf);
+}
+
+body{
+    background: url(../images/background_mephi.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "LiberationSans";
+}
+
+.header {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: beige;
+    font-family: "ExcelsiorSans";
+    letter-spacing: 0.1em;
+}
+
+p {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+.below {
+    padding-top: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1em;
+    border: 2px solid gold;
+}
+
+nav > ul {
+    padding-left: 2em;
+}
+
+.logo {
+    padding-top: 1em;
+}
+
+.logo > img {
+    max-width: 160px;
+    max-height: 160px;
+}
+
+nav {
+    float: left;
+    text-align: left;
+    line-height: 1.3;
+    max-width: 15%;
+    position: sticky;
+    top: 1em;
+}
+
+.panel_droite {
+    float: right;
+    max-width: 12%;
+    line-height: 2em;
+    position: sticky;
+    top: 1em;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 100wv;
+}
+
+.sinners_display {
+    display: grid;
+    margin: 5em 25em 5em 25em;
+    grid-template-columns: repeat(6, 1fr);
+    outline: 5px solid orange;
+    outline-offset: 2em;
+    justify-content: center;
+    overflow: auto;
+    gap: 3em;
+}
+
+.sinners_display > a > img {
+   width: 90%;
+   height: 90%;
+   object-fit: cover;
+}
+
+footer {
+    text-align: right;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: gold;
+}
+
+a:visited {
+    color: gold;
+}
+
+.yisang {
+    color: #d4dfe8;
+}
+
+.faust {
+    color: #ffbfb4;
+}
+
+.donquixote {
+    color: #FFEF23;
+}
+
+.ryoshu {
+    color: #cf0000;
+}
+
+.meursault {
+    color: #293b95;
+}
+
+.honglu {
+    color: #5BFFDE;
+}
+
+.heathcliff {
+    color: #4e3076;
+}
+
+.ishmael {
+    color: #ff9500;
+}
+
+.rodion {
+    color: #820000;
+}
+
+.sinclair {
+    color: #8b9c15;
+}
+
+.outis {
+    color: #325339;
+}
+
+.gregor {
+    color: #69350b;
+}
